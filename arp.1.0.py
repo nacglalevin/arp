@@ -3,7 +3,7 @@
 Name:ARP.1.0 Author: Lalevin Martin
  Mailbox: zzlyxht@outlook.com                                                
  Github: http://github.com/nacglalevin
-Written in 2024-4-22
+Written in 2024-5-2
 ==================NACG==================
 """
 import os
