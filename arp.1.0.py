@@ -8,13 +8,13 @@ from scapy.all import (
 )
 
 ifconfig=os.system('ifconfig')
-print ifconfig
+print(ifconfig)
 gmac=raw_input('Please enter gateway IP:')
 liusheng=raw_input('Please enter your IP:')
 liusrc=raw_input('Please enter target IP:')
 try:
   tg=getmacbyip(liusrc)
-  print tg
+  print(tg)
 except Exception , f:
     print '[-]{}'.format(f)
     exit()
