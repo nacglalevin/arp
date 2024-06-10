@@ -1,12 +1,4 @@
-# 1. 从命令行获取要欺骗的IP
-# 2. 获取IP对应的MAC地址
-# 3. 定义MAC获取函数get_mac()
-# 4. 启动ARP欺骗
-# 5. 定义ARP欺骗函数
-# 6. 嗅探数据包
-# 7. 定义cookie嗅探函数
-# 8. 恢复靶机ARP缓存
-# 9. 定义ARP缓存恢复函数
+
 
 from scapy.all import *
 import time
